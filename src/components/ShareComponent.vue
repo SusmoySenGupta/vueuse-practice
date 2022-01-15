@@ -3,13 +3,13 @@ import { useShare } from '@vueuse/core';
 import { ref } from 'vue';
 
 const shareOptions = ref({
-    title: 'VueUse Practice',
+    title: 'Susmoy | VueUse Practice',
     text: 'VueUse Practice!',
-    url: 'https://github.com/SusmoySenGupta',
-    hashtags: 'vueusejs',
-    via: 'vueusejs',
-    related: 'vueusejs',
-    image: 'https://vueuse.js.org/images/vueuse-logo.png',
+    url: 'https://susmoysengupta.github.io/vueuse-practice/',
+    hashtags: 'vueuse',
+    via: 'vueuse',
+    related: 'vueuse',
+    image: 'https://d33wubrfki0l68.cloudfront.net/2f6479d73bc25170dc532dd42e059166573bf478/61057/favicon.svg',
 });
 const { share, isSupported } = useShare(shareOptions);
 </script>
